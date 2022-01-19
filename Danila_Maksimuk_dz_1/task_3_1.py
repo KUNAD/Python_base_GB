@@ -31,10 +31,6 @@ def transform_string(number: int) -> str:
         end = 'ов'
         print(number, "Процент{}".format(end))
 
-
-
-
-
     return number
 
 for n in range(1, 101):
