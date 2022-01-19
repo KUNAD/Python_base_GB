@@ -1,13 +1,7 @@
 def sum_list_1(dataset: list) -> int:
     """Вычисляет сумму чисел списка dataset, сумма цифр которых делится нацело на 7"""
-    dataset = list(range(0, 1001))
-    i = 0
-    while i < (len(dataset)):
-        if dataset[i] % 2 == 0:
-            del(dataset[i])
-        i += 1
+    dataset = list(range(1, 1001, 2))
     j = 0
-
     while j < (len(dataset)):
         dataset[j] = dataset[j] ** 3
         j += 1
@@ -32,14 +26,8 @@ def sum_list_2(dataset: list) -> int:
     """К каждому элементу списка добавляет 17 и вычисляет сумму чисел списка,
         сумма цифр которых делится нацело на 7
         Задачу решил не создавая новый список!!!! (Т.Е. в этой функции реализованы подпункты b) и c)"""
-    dataset = list(range(0, 1001))
-    i = 0
-    while i < (len(dataset)):
-        if dataset[i] % 2 == 0:
-            del (dataset[i])
-        i += 1
+    dataset = list(range(1, 1001, 2))
     j = 0
-
     while j < (len(dataset)):
         dataset[j] = dataset[j] ** 3 + 17
         j += 1
