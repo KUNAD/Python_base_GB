@@ -55,21 +55,3 @@ print(result_1)
 result_2 = sum_list_2(my_list)
 print(result_2)
 
-"""dataset = list(range(0, 1001))
-    i = 0
-    while i < (len(dataset)):
-        if dataset[i] % 2 == 1:
-            dataset[i] ** 3
-        else:
-            del (dataset[i])
-        i += 1
-"""
-
-"""while n > 0:
-    digit = n % 10
-    sum_digit += digit
-    n = n // 10"""
-
-
-
-#print(sum(i ** 3 for i in range(1001) if i % 2 == 1 and i % 7 == 0))
